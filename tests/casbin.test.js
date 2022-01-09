@@ -55,8 +55,8 @@ describe("acl", () => {
 
 
     await e.addPolicies([
-      ["admin", "data1", "write"],
-      ["admin", "data1", "read"],
+      ["admin", "data1", "write", "allow"],
+      ["admin", "data1", "read", "allow"],
     ]);
     await e.addRoleForUser('alice', 'admin');
     await e.savePolicy();
