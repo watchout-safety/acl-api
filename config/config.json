@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Password123",
+    "database": "watchout",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": null,
+    "password": null,
+    "database": "watchout",
+    "host": "test.db",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Password123",
+    "database": "watchout",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
