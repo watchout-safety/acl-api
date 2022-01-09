@@ -19,5 +19,6 @@ const db = init(sequelize);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
+db.SequelizeConfig = config;
 
 module.exports = db;
